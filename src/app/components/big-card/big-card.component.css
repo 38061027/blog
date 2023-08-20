@@ -1,0 +1,23 @@
+.container-big-card{
+  border: solid white 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.container-big-card h1{
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+
+.big-card-description p{
+  margin-top: 10px;
+color: gray;
+}
