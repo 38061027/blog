@@ -1,13 +1,13 @@
 .container-big-card{
-  border: solid white 2px;
-  margin-left: 10px;
-  margin-right: 10px;
+
+  margin-left: 20px;
+  margin-right: 20px;
   width: 400px;
   height: 500px;
   display: flex;
-  align-items: flex-start;
   flex-direction: column;
-  justify-content: flex-start;
+
+
 }
 
 
@@ -17,7 +17,18 @@
 }
 
 
-.big-card-description p{
+.big-card-description{
+  margin-top: 20px;
+
+}
+
+.big-card-description p a{
   margin-top: 10px;
 color: gray;
+}
+
+
+.big-card-photo img{
+    width: 100%;
+    min-width: 400px;
 }
